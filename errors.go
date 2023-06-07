@@ -43,6 +43,7 @@ var _ error = (*Error)(nil)
 
 // SetType sets the error's type.
 func (msg *Error) SetType(flags ErrorType) *Error {
+	fmt.Println("wxw")
 	msg.Type = flags
 	return msg
 }
